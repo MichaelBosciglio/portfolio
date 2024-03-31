@@ -1,6 +1,5 @@
-# Michael Bosciglio - Personal Portfolio
 
-Welcome to my personal portfolio website repository! Here you can explore the projects I've worked on, my educational background, work experiences, and technical skills.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Ubuntu&size=35&duration=3000&pause=10000&color=42C3F7&vCenter=true&random=false&width=700&height=60&lines=MICHAEL+BOSCIGLIO'S+PORTFOLIO)](https://git.io/typing-svg)
 
 ## Contact Me
 
@@ -8,4 +7,4 @@ Welcome to my personal portfolio website repository! Here you can explore the pr
 - **Email:** [michael.bosciglio245@gmail.com](mailto:michael.bosciglio245@gmail.com)
 - **GitHub:** [github.com/MichaelBosciglio](github.com/MichaelBosciglio)
 
-Thank you for visiting my portfolio! Feel free to explore my projects and reach out if you have any questions.
+### Thank you for visiting my portfolio! Feel free to explore my projects and reach out if you have any questions.
