@@ -9,16 +9,17 @@ import {Card, Skeleton} from "@nextui-org/react";
 
 export default function Home() {
 	return (
-		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-			<div className="inline-block max-w-lg text-center justify-center">
-				<h1 className={title()}>Michael&nbsp;</h1>
-				<h1 className={title({ color: "blue" })}>Bosciglio&nbsp;</h1>
+		<section className="flex flex-col items-left justify-center gap-4 py-8 md:py-10">
+			<div className="inline-block max-w-lg text-left justify-center">
+				<h2 className={subtitle({ class: "mt-4" })}>
+					Hi, my name is
+				</h2>
+				<h1 className={title({ size: "lg" })}>Michael Bosciglio&nbsp;</h1>
 				<br />
 				<h2 className={subtitle({ class: "mt-4" })}>
-					Software Engineer
+					Software Engineer based in the Greater Toronto Area
 				</h2>
 			</div>
-			
 			
 		</section>
 	);
