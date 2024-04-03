@@ -59,4 +59,7 @@ export const siteConfig = {
 		linkedin: "https://www.linkedin.com/in/michaelbosciglio/",
     
 	},
+	Link:{
+		href: "resume.pdf"
+	}
 };
