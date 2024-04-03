@@ -12,7 +12,6 @@ export const metadata: Metadata = {
 		default: siteConfig.name,
 		template: `%s - ${siteConfig.name}`,
 	},
-	description: siteConfig.description,
 	themeColor: [
 		{ media: "(prefers-color-scheme: light)", color: "white" },
 		{ media: "(prefers-color-scheme: dark)", color: "black" },
@@ -44,9 +43,10 @@ export default function RootLayout({
 						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
 							{children}
 						</main>
-						<footer className="w-full flex items-center justify-center py-3">
-							
-						</footer>
+						{/* <footer className="w-full flex items-center justify-center py-3">
+							Contact me: &nbsp;
+							<Link href="mailto:michael.bosciglio245@gmail.com">michael.bosciglio245@gmail.com</Link>
+						</footer> */}
 					</div>
 				</Providers>
 			</body>
