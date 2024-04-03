@@ -36,14 +36,15 @@ export const Navbar = () => {
 			<NavbarContent className="basis-1/5 sm:basis-full">
 				<NavbarBrand as="li" className="gap-3 max-w-fit">
 				<Avatar
-				isBordered
-				disabled
-				as="button"
-				className="transition-transform"
-				color="primary"
-				name="Michael Bosciglio"
-				size="sm"
-				src="me.jpg"
+					isBordered
+					disabled
+					as="button"
+					className="transition-transform"
+					color="primary"
+					name="Michael Bosciglio"
+					size="sm"
+					src="me.jpg"
+				
 				/>
 					<NextLink className="flex justify-start items-center gap-1" href="/">
 						
