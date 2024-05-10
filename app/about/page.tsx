@@ -8,6 +8,11 @@ export default function AboutPage() {
 
 	return (
 		<div className="flex flex-col w-full items-center justify-center text-center">
+			<div
+				className={title({ size: "md" })}
+			>
+				About Me
+			</div>
 			<Textarea
 				name="description1"
 				isReadOnly
@@ -15,7 +20,7 @@ export default function AboutPage() {
 				disableAnimation
 				variant="faded"
 				defaultValue="Back in high school I completed my first ever Python game 'Comets' which sparked my passion for software development. I officially embarked on my journey in software engineering at the University of Ottawa, where I pursued a Bachelor of Applied Science in my Software Engineering CO-OP program. Throughout my academic tenure, I delved into various subjects including Design and Analysis of Algorithms, Introduction to Artificial Intelligence, Software Requirements Analysis, and Software Design and Architecture. During this time, I worked in four professional settings, gaining practical experience in the software development life cycle."
-				className="flex flex-col max-w-4xl pb-10 text-center"
+				className="flex flex-col max-w-4xl pb-10 pt-2 text-center"
 				
 			/>
 			<Textarea
