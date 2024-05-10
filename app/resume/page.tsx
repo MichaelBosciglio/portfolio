@@ -6,7 +6,12 @@ import {Avatar, AvatarGroup, AvatarIcon, Button, Link} from "@nextui-org/react";
 
 export default function ResumePage() {
 	return (
-		<div className="inline-block max-w-xl justify-center">
+		<div className="flex flex-col max-w-xl justify-center items-center">
+			<div
+				className={title({ size: "md"})}
+			>
+				Resume
+			</div>
 			<div className="flex flex-col items-center mb-8">
 				<Button
 					as={Link}
